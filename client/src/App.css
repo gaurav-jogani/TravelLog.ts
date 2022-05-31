@@ -2,7 +2,17 @@
   min-height: 100vh;
   display: flex;
   background-size: cover;
-  background-color: rgb(15, 7, 1);
   background-position: center;
-  color: black;
+  position: relative;
+}
+
+.hoverEffect:hover {
+  color: #CD1DE1;
+}
+
+.containerDiv {
+  height: 91vh;
+  width: 100%;
+  padding-top: 65px;
+  background-color: #141312;
 }
